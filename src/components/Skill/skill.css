@@ -1,0 +1,25 @@
+.s {
+    /* height: 100vh; */
+    background-color: papayawhip;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-table {
+    max-width: 80vw;
+    border-collapse: collapse;
+}
+
+.s-table-th,
+.s-table-td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
+.s-table-tr:nth-child(even) {
+    background-color: #dddddd;
+}

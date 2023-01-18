@@ -1,0 +1,16 @@
+.ps-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-title {
+    font-weight: 400;
+}
+
+.ps-projlist {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

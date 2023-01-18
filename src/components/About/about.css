@@ -1,0 +1,29 @@
+.a {
+    /* height: 100vh; */
+    background-color: beige;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a-title {
+    font-weight: 400;
+}
+
+.a-sub {
+    margin: 20px 0px;
+}
+
+.a-desc {
+    font-weight: 300;
+}
+
+
+@media screen and (max-width:480px) {
+    .a {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
