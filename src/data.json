@@ -36,16 +36,29 @@
         "github": "https://github.com/kehuanW/AussieCamp"
     },
     {
-        "title": "proj2",
-        "tech": "React, Node, Express, MongoDB",
+        "title": "Steams ",
+        "tech": "React, JSON server, RTMP server, Redux, JSX",
+        "desc": [
+            "Highlight Features:",
+            "- Authentication and authorization with Google Account.",
+            "- Live video transmission with OBS."
+        ],
+        "demo": [],
+        "img": "/img/streams.png",
+        "website": "",
+        "github": "https://github.com/kehuanW/Streams"
+    },
+    {
+        "title": "Portfolio",
+        "tech": "React, JSX, EmailJS, HTML, CSS",
         "desc": [
             "1",
             "2",
             "3"
         ],
         "demo": [],
-        "img": "https://images.unsplash.com/photo-1673874500167-17ca5ed1cf17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
-        "website": "",
-        "github": ""
+        "img": "/img/portfolio.png",
+        "website": "https://kehuanw.site/",
+        "github": "https://github.com/kehuanW/Portfolio"
     }
 ]

@@ -3,7 +3,7 @@ import './projects.css';
 import Project from '../Project/project';
 
 const Projects = () => {
-    console.log("$$$$$$$", data);
+    // console.log("$$$$$$$", data);
     return (
         <div className='ps-container'>
             <h1 className='ps-title'>PROJECTS</h1>

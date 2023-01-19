@@ -3,6 +3,7 @@
     border: gainsboro solid 1px;
     border-radius: 10px;
     margin: 20px;
+
 }
 
 .container {
@@ -18,9 +19,20 @@
     font-style: italic;
 }
 
+.card-img-wrapper {
+    max-height: 175px;
+    overflow: hidden;
+    border: gainsboro solid 1px;
+}
+
 .card-img {
-    max-width: 100%;
     border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    transition: all 10s ease;
+}
+
+.card-img-wrapper:hover .card-img {
+    transform: translateY(-80%);
 }
 
 .button-list {
