@@ -2,9 +2,9 @@ import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { ToastProvider, useToasts } from 'react-toast-notifications';
 import './contact.css';
-import Phone from '../../img/phone.png';
-import Email from '../../img/email.png';
-import Address from '../../img/address.png';
+// import Phone from '../../img/phone.png';
+// import Email from '../../img/email.png';
+// import Address from '../../img/address.png';
 
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
     const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
     const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
-    console.log(SERVICE_ID);
+    // console.log(SERVICE_ID);
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -40,15 +40,15 @@ const Contact = () => {
                     <div className='underline' style={{ "marginLeft": "80px" }}></div>
                     <div className="c-info">
                         <div className="c-info-item">
-                            <img src={Phone} alt="" className="c-icon" />
+                            <img src="/img/phone.png" alt="" className="c-icon" />
                             <p className='c-info-item-text'>+61 420-425-315</p>
                         </div>
                         <div className="c-info-item">
-                            <img src={Email} className="c-icon" alt="" />
+                            <img src="/img/email.png" className="c-icon" alt="" />
                             <p className='c-info-item-text'>kehuanwang123@gmail.com</p>
                         </div>
                         <div className="c-info-item">
-                            <img src={Address} className="c-icon" alt="" />
+                            <img src="/img/address.png" className="c-icon" alt="" />
                             <p className='c-info-item-text'>Adelaide, SA, 5000</p>
                         </div>
                     </div>

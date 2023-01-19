@@ -54,3 +54,12 @@
 .button-github {
     background-color: rgb(171, 52, 235);
 }
+
+.card-desc-sentence {
+    margin: 5px;
+}
+
+.card-desc,
+.card-demo {
+    margin-bottom: 20px;
+}
