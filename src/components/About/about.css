@@ -1,22 +1,22 @@
 .a {
     /* height: 100vh; */
-    background-color: beige;
+    background-color: white;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.a-title {
-    font-weight: 400;
-}
+/* .a-title {
+    font-weight: bold;
+} */
 
 .a-sub {
     margin: 20px 0px;
 }
 
 .a-desc {
-    font-weight: 300;
+    font-size: 20px;
 }
 
 
@@ -26,4 +26,16 @@
         text-align: center;
         margin-top: 50px;
     }
+}
+
+.a-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.underline {
+    width: 60px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 20px;
 }

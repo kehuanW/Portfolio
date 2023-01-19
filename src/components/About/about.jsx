@@ -4,6 +4,7 @@ const About = () => {
     return (
         <div className="a">
             <h1 className="a-title">ABOUT ME</h1>
+            <div className="underline"></div>
             <p className="a-sub">
                 It is a long established fact that a reader will be distracted by the
                 readable content.

@@ -1,6 +1,6 @@
 .s {
     /* height: 100vh; */
-    background-color: papayawhip;
+    background-color: #E9ECEF;
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
@@ -10,16 +10,31 @@
 .s-table {
     max-width: 80vw;
     border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .s-table-th,
 .s-table-td {
-    border: 1px solid black;
+    border: 1.5px solid gray;
     text-align: left;
     padding: 8px;
     font-size: 1.2rem;
 }
 
 .s-table-tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #DDE0E3;
+}
+
+.s-table-tr:nth-child(odd) {
+    background-color: #E9ECEF;
+}
+
+.s-table-td-p {
+    margin: 5px 3px;
+}
+
+.s-title {
+    margin-bottom: 10px;
+    font-weight: bold;
 }

@@ -12,13 +12,13 @@ const Project = (props) => {
                 <p className="card-tech">{proj.tech}</p>
                 <p className="card-desc">{proj.desc}</p>
                 <div className="button-list">
-                    <a href={proj.website} style={{ "text-decoration": "none" }}>
+                    <a href={proj.website} style={{ "textDecoration": "none" }}>
                         <button className="button-website">
                             <LaunchIcon />
                             <span className="icon-text">Website</span>
                         </button>
                     </a>
-                    <a href={proj.github} style={{ "text-decoration": "none" }}>
+                    <a href={proj.github} style={{ "textDecoration": "none" }}>
                         <button className="button-github">
                             <GitHubIcon />
                             <span className="icon-text">Github</span>

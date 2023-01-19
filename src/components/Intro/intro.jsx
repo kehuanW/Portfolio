@@ -1,18 +1,32 @@
 import "./intro.css";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 const Intro = () => {
     return (
         <div className="i">
+            <div className="bg"></div>
             <div className="i-left">
                 <div className="i-left-wrapper">
-                    <h2 className="i-intro">Hello, My name is</h2>
-                    <h1 className="i-name">Kehuan Wang</h1>
-                    <div className="i-title">
-                        <div className="i-title-wrapper">
-                            <div className="i-title-item">Software Developer</div>
-                            <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Data Engineer</div>
-                            <div className="i-title-item">Tech Enthusiast</div>
+                    {/* <h2 className="i-intro">Hello, My name is</h2> */}
+                    <h1 className="i-name">KEHUAN WANG</h1>
+                    <h2 className="i-job-title">SOFTWARE DEVELOPER | WEB DEVELOPER</h2>
+                    <div className="i-linkList">
+                        <div className="i-icon">
+                            <a href="https://www.linkedin.com/in/kehuan-w-b352b61ba/" >
+                                <LinkedInIcon fontSize="large" style={{ color: "black" }} />
+                            </a>
+                        </div>
+                        <div className="i-icon" >
+                            <a href="" >
+                                <InsertDriveFileIcon fontSize="large" style={{ color: "black" }} />
+                            </a>
+                        </div>
+                        <div className="i-icon">
+                            <a href="https://github.com/kehuanW">
+                                <GitHubIcon fontSize="large" style={{ color: "black" }} />
+                            </a>
                         </div>
                     </div>
                     {/* <p className="i-desc">
@@ -21,9 +35,6 @@ const Intro = () => {
                         online stores.
                     </p> */}
                 </div>
-            </div>
-            <div className="i-right">
-                <div className="i-bg"></div>
             </div>
         </div>
     )

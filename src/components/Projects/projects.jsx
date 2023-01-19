@@ -7,6 +7,7 @@ const Projects = () => {
     return (
         <div className='ps-container'>
             <h1 className='ps-title'>PROJECTS</h1>
+            <div className='underline'></div>
             <div className='ps-projlist'>
                 {data.map((proj, ind) => <Project proj={proj} key={ind} />)}
             </div>
