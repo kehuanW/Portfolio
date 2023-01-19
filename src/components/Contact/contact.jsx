@@ -1,31 +1,36 @@
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import { ToastProvider, useToasts } from 'react-toast-notifications';
 import './contact.css';
 import Phone from '../../img/phone.png';
 import Email from '../../img/email.png';
 import Address from '../../img/address.png';
 
-const Contact = () => {
-    // const formRef = useRef();
-    // const [done, setDone] = useState(false)
 
-    // const handleSubmit = (e) => {
-    //   e.preventDefault();
-    //   emailjs
-    //     .sendForm(
-    //       "service_rrvnzco",
-    //       "template_3v5nih4",
-    //       formRef.current,
-    //       "user_DrriDPTGKO2Zj4RDXCA6W"
-    //     )
-    //     .then(
-    //       (result) => {
-    //         console.log(result.text);
-    //         setDone(true)
-    //       },
-    //       (error) => {
-    //         console.log(error.text);
-    //       }
-    //     );
-    // };
+const Contact = () => {
+    const formRef = useRef();
+    const { addToast } = useToasts();
+
+    const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+    const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+    const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
+
+    console.log(SERVICE_ID);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, formRef.current, PUBLIC_KEY)
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    addToast('Sent Successfully. Thanks!', { appearance: 'success' });
+                },
+                (error) => {
+                    console.log(error.text);
+                    addToast('Something wrong. Please try again!', { appearance: 'error' });
+                }
+            );
+    };
 
     return (
         <div className="c">
@@ -51,7 +56,7 @@ const Contact = () => {
                 <div className="c-right">
                     <h1 className="c-title">CONTACT ME</h1>
                     <div className='underline' style={{ "marginLeft": "80px" }}></div>
-                    <form>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" style={{ "minWidth": "230px" }} />
                         <input type="text" placeholder="Subject" name="user_subject" style={{ "minWidth": "230px" }} />
                         <input type="text" placeholder="Email" name="user_email" style={{ "minWidth": "230px" }} />
