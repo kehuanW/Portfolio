@@ -10,13 +10,11 @@ import { ToastProvider } from 'react-toast-notifications';
 function App() {
   return (
     <ToastProvider>
-      {/* <div className="App"> */}
       <Intro />
       <About />
       <Skill />
       <Projects />
       <Contact />
-      {/* </div> */}
     </ToastProvider>
   );
 }

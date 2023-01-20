@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import { ToastProvider, useToasts } from 'react-toast-notifications';
+import { useToasts } from 'react-toast-notifications';
 import './contact.css';
 // import Phone from '../../img/phone.png';
 // import Email from '../../img/email.png';
