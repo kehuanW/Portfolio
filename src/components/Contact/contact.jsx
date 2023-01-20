@@ -57,10 +57,10 @@ const Contact = () => {
                     <h1 className="c-title">CONTACT ME</h1>
                     <div className='c-underline'></div>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Your Name" name="user_name" style={{ "minWidth": "230px" }} required />
-                        <input type="text" placeholder="Subject" name="user_subject" style={{ "minWidth": "230px" }} required />
-                        <input type="email" placeholder="Your Email" name="user_email" style={{ "minWidth": "230px" }} required />
-                        <textarea rows="5" placeholder="Message" name="message" required />
+                        <input type="text" placeholder="Your Name" name="user_name" className="c-form-imput" required />
+                        <input type="text" placeholder="Subject" name="user_subject" className="c-form-imput" required />
+                        <input type="email" placeholder="Your Email" name="user_email" className="c-form-imput" required />
+                        <textarea rows="5" placeholder="Message" className="c-form-imput" name="message" required />
                         <button className='c-button'>Submit</button>
                         {/* {done && "Thank you..."} */}
                     </form>

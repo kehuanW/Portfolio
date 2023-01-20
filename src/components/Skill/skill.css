@@ -43,4 +43,13 @@
     .s-title {
         font-size: 25px;
     }
+
+    .s-table-th,
+    .s-table-td {
+        font-size: 1rem;
+    }
+
+    .s-table {
+        width: 90vw;
+    }
 }
