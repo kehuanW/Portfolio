@@ -6,7 +6,7 @@ const About = () => {
             <h1 className="a-title">ABOUT ME</h1>
             <div className="underline"></div>
             <div className="a-sub">
-                <span style={{ "fontStyle": "italic" }}>keywords:</span> MScIT, software development, data engineering, React, JS/TS, HTML, CSS, Node
+                <span style={{ "fontStyle": "italic" }}>keywords:</span> MScIT, software development, web development, React, JS/TS, HTML, CSS, Node, data engineering
             </div>
 
             <div className="a-desc">
