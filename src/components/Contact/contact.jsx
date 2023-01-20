@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="c-wrapper">
                 <div className="c-left">
                     <h1 className="c-title">CONTACT INFO</h1>
-                    <div className='underline' style={{ "marginLeft": "80px" }}></div>
+                    <div className='c-underline'></div>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src="/img/phone.png" alt="" className="c-icon" />
@@ -55,12 +55,12 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <h1 className="c-title">CONTACT ME</h1>
-                    <div className='underline' style={{ "marginLeft": "80px" }}></div>
+                    <div className='c-underline'></div>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Name" name="user_name" style={{ "minWidth": "230px" }} />
-                        <input type="text" placeholder="Subject" name="user_subject" style={{ "minWidth": "230px" }} />
-                        <input type="text" placeholder="Email" name="user_email" style={{ "minWidth": "230px" }} />
-                        <textarea rows="5" placeholder="Message" name="message" />
+                        <input type="text" placeholder="Your Name" name="user_name" style={{ "minWidth": "230px" }} required />
+                        <input type="text" placeholder="Subject" name="user_subject" style={{ "minWidth": "230px" }} required />
+                        <input type="email" placeholder="Your Email" name="user_email" style={{ "minWidth": "230px" }} required />
+                        <textarea rows="5" placeholder="Message" name="message" required />
                         <button className='c-button'>Submit</button>
                         {/* {done && "Thank you..."} */}
                     </form>

@@ -14,7 +14,7 @@
             "Username: aria; Password: aria",
             "Bank account: 4242 4242 4242 4242; CVC: Any 3 digits; DATE: Any future date"
         ],
-        "img": "/img/P0.png",
+        "img": "/img/todayGIF.gif",
         "website": "https://www.todayecommerce.site/",
         "github": "https://github.com/kehuanW/Today-Ecommerce-Platform"
     },
@@ -31,7 +31,7 @@
             "Demo Test:",
             "Username: aria; Password: aria"
         ],
-        "img": "/img/P1.png",
+        "img": "/img/aussiecampGIF.gif",
         "website": "https://aussie-camp.onrender.com/",
         "github": "https://github.com/kehuanW/AussieCamp"
     },
@@ -41,24 +41,16 @@
         "desc": [
             "Highlight Features:",
             "- Authentication and authorization with Google Account.",
-            "- Live video transmission with OBS."
+            "- Live video transmission with OBS.",
+            "- Users can create and read stream info.",
+            "- Only the stream's creator can update and delete stream Info."
         ],
-        "demo": [],
-        "img": "/img/streams.png",
+        "demo": [
+            "Demo Test:",
+            "Please login with your own Google Account."
+        ],
+        "img": "/img/streamsGIF.gif",
         "website": "",
         "github": "https://github.com/kehuanW/Streams"
-    },
-    {
-        "title": "Portfolio",
-        "tech": "React, JSX, EmailJS, HTML, CSS",
-        "desc": [
-            "1",
-            "2",
-            "3"
-        ],
-        "demo": [],
-        "img": "/img/portfolio.png",
-        "website": "https://kehuanw.site/",
-        "github": "https://github.com/kehuanW/Portfolio"
     }
 ]

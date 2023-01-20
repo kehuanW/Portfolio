@@ -38,3 +38,9 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 495px) {
+    .s-title {
+        font-size: 25px;
+    }
+}

@@ -7,7 +7,7 @@ const Project = (props) => {
     // console.log(proj)
     return (
         <div className="card">
-            <div class="card-img-wrapper">
+            <div className="card-img-wrapper">
                 <img className="card-img" src={proj.img} />
             </div>
             <div className="container">

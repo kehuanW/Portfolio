@@ -119,3 +119,25 @@ textarea {
         margin-top: 10px;
     }
 }
+
+.c-underline {
+    width: 60px;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-left: 80px
+}
+
+@media screen and (max-width: 530px) {
+    .c {
+        padding: 50px 20px;
+    }
+
+    .c-title {
+        font-size: 25px;
+    }
+
+    .c-underline {
+        margin-left: 45px
+    }
+}

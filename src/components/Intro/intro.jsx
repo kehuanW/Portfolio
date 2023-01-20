@@ -2,6 +2,7 @@ import "./intro.css";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Intro = () => {
     return (
@@ -19,7 +20,7 @@ const Intro = () => {
                             </a>
                         </div>
                         <div className="i-icon" >
-                            <a href="" >
+                            <a href="https://drive.google.com/drive/folders/1X4nLCFNqG3nTxEm1iylReiPf2RsdGK0l?usp=sharing" >
                                 <InsertDriveFileIcon fontSize="large" style={{ color: "black" }} />
                             </a>
                         </div>
@@ -35,6 +36,9 @@ const Intro = () => {
                         online stores.
                     </p> */}
                 </div>
+            </div>
+            <div className="i-expandmore">
+                <ExpandMoreIcon fontSize="large" />
             </div>
         </div>
     )

@@ -81,6 +81,26 @@
     margin: 20px;
 }
 
+.i-expandmore {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .i-name {
         font-size: 40px;
@@ -89,5 +109,16 @@
 
     .i-job-title {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .i-name {
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+
+    .i-job-title {
+        font-size: 15px;
     }
 }

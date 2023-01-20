@@ -16,3 +16,9 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 495px) {
+    .ps-title {
+        font-size: 25px;
+    }
+}
