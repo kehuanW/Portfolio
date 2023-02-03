@@ -27,6 +27,7 @@
 /* Project */
 .card {
     width: 335px;
+    /* height: auto; */
     border: gainsboro solid 1px;
     border-radius: 10px;
     margin: 20px;

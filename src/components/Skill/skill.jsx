@@ -2,7 +2,7 @@ import "./skill.css";
 
 const Skill = () => {
     return (
-        <div className="s">
+        <div className="s" id="skills">
             <h1 className="s-title">TECHNICAL SKILLS</h1>
             <div className="underline"></div>
             <table className="s-table">

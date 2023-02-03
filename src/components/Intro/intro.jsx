@@ -6,8 +6,14 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Intro = () => {
     return (
-        <div className="i">
-            <div className="bg"></div>
+        <div className="i" id="intro">
+            <div className="bg">
+                <div className="cube"></div>
+                <div className="cube"></div>
+                <div className="cube"></div>
+                <div className="cube"></div>
+                <div className="cube"></div>
+            </div>
             <div className="i-left">
                 <div className="i-left-wrapper">
                     {/* <h2 className="i-intro">Hello, My name is</h2> */}

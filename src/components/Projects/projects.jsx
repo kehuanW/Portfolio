@@ -7,7 +7,7 @@ import './projects.css';
 const Projects = () => {
     // console.log("$$$$$$$", data);
     return (
-        <div className='ps-container'>
+        <div className='ps-container' id="projects">
             <h1 className='ps-title'>PROJECTS</h1>
             <div className='underline'></div>
             <div className='ps-projlist'>
