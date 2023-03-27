@@ -74,7 +74,7 @@ const Projects = () => {
                             <li>Username: aria; Password: aria</li>
                         </ul>
                         <div className="button-list">
-                            <a href="https://aussie-camp.onrender.com/" style={{ "textDecoration": "none" }}>
+                            <a href="https://aussiecamp.herokuapp.com/" style={{ "textDecoration": "none" }}>
                                 <button className="button-website">
                                     <LaunchIcon />
                                     <span className="icon-text">Website</span>
